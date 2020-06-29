@@ -6,7 +6,7 @@ favicon: images/favicon.ico
 
 # Personal info
 name: Lee Junho
-title: Web Developer
+title: Web Full-Stack Engineer
 email: junhodori@gmail.com
 website: www.github.com/sproogen/resume-theme
 
@@ -29,8 +29,8 @@ about_content: | # this will include new lines to allow paragraphs
   안녕하세요. 항상 새로운 기술에 갈증을 느끼며 도전하길 좋아하는 엔지니어입니다.
 
   검색엔진 회사를 시작으로 현재는 광고 플랫폼 회사에서 열심히 성장하고 있습니다.
-  
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+
+  저는 <mark>웹 풀스택</mark> 엔지니어 입니다.
 
 # Projects Section
 # projects_title: Projects
@@ -44,11 +44,23 @@ about_content: | # this will include new lines to allow paragraphs
 # More Section
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
-  Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-   - Rock climbing
-   - Gaming
-   - Knitting
-   - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+  나의 취미 생활:
+   - StarCraft
+   - Riding a bicycle
+   - Futsal
+   - Health training
+   - Camping as a new hobby
+
+  나의 개인 학습:
+   - Node.js
+   - Electron
+   - Redis
+   - Mean Stack
+   - Elastic Stack
+   - Kotlin
+   - Docker
+   - Machine Learning
+   - React
 
 # Footer
 footer_show_references: true

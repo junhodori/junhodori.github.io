@@ -1,61 +1,101 @@
 - layout: top-middle
   name: 피드 변환 시스템 개발
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  job_title: 광고주의 상품 파일을 각 매체에 동적 광고를 진행하기 위해 자동으로 변환하고 관리하는 모듈
+  dates: Jun 2015 - Present
   quote: >
     <mark>Java</mark> <mark>Python</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>Linux</mark>
   description: | # this will include new lines to allow paragraphs
-    "광고주의 상품 파일을 각 매체에 동적 광고를 진행하기 위해 자동으로 변환하고 관리하는 모듈"
+    > **11번가, 위메프, CJmall, SSG 등 대형 광고주 상품 파일 연동**
+    ```
+    1억건이상 대용량 상품 EP, XML, CSV, TSV 파일
+    ```
 
-    > 11번가, 위메프, CJmall, SSG 등 광고주 상품 파일 변환 작업
+    > **100여개 소호몰 광고주 상품 수집 및 연동**
+    ```
+    상품 페이지 픽셀 스크립트 호출시 상품 데이터 실시간 수집
+    ```
 
-    > 100여개 소규모 광고주 상품 수집 및 변환 작업
+    > **페이스북 카탈로그, 구글 판매자 센터, 크리테오 등 각 매체사에 상품 파일 전체 및 증분 업데이트**
+    ```
+    신규, 업데이트, 삭제 상품 배치 업데이트
+    ```
+    ```
+    재고 변동사항 실시간 업데이트
+    ```
 
-    > 페이스북, 구글, 크리테오 등 각 매체에 전체, 증분 업로드
-
-    > 상품 필터링, 상품 수정, 이슈 해결
+    > **광고 상품 필터링 및 광고 상품 커스터마이징 등 상품 관리 기능**
+    ```
+    효율 낮은 상품, 부적절 광고 상품 필터링
+    ```
+    ```
+    상품 정보 커스터마이징 및 전체 상품 현황 관리
+    ```
 
 - layout: top-middle
   name: 소재 커스터 마이징 시스템 개발
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  job_title: 광고 효율을 높이기 위한 광고 소재 커스터 마이징
+  dates: Mar 2017 - Present
   quote: >
-    "광고 효율을 높이기 위한 광고 소재 커스터 마이징"
-  description: | # this will include new lines to allow paragraphs
-    > 무료배송, 할인률, 인기상품 등 각종 프로모션에 따른 소재 이미지 자동 워터마크
-
-    > 이미지 리사이징 작업
-
     <mark>Python</mark> <mark>Pillow Library</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>AWS S3</mark>
+  description: | # this will include new lines to allow paragraphs
+    > **무료배송, 할인률, 인기상품 등 각종 프로모션에 따른 소재 이미지 자동 워터마크**
+
+    > **위치 기반 배송 시간 워터마크**
+
+    > **다양한 템플릿이 적용된 이미지 리사이징**
 
 - layout: top-middle
   name: 광고 집행 플랫폼 개발
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  link: https://ad.f1dmc.com:8443
+  job_title: 페이스북, 구글, 카카오, 크리테오 등 다양한 매체의 광고를 집행 할 수 있는 매니지드 플랫폼
+  dates: June 2015 - Present
   quote: >
-    "페이스북, 구글, 카카오, 크리테오 등 다양한 매체의 광고를 집행 할 수 있는 매니지드 플랫폼"
+    <mark>Java8</mark> <mark>Spring Boot</mark> <mark>Vue.js</mark> <mark>Angular1.x</mark> <mark>Amchart</mark> <mark>Highchart</mark> <mark>BootStrap</mark>
   description: | # this will include new lines to allow paragraphs
-    > 광고 생성, 수정 관리
+    > **페이스북, 인스타그램, 구글, 카카오 광고 생성**
 
-    > 효율에 따른 광고 예산 자동 최적화
+    > **효율에 따른 광고 예산 자동 최적화**
 
-    > 사이트 진단 분석
+    > **사용자 행동 분석 및 광고주 사이트 진단 대시보드**
 
-    > 환율과 커미션이 적용된 광고주 리포트
-
-    > 유입 경로 분석
-
-    <mark>Java8</mark> <mark>Spring Boot</mark> <mark>Vue.js</mark> <mark>Angular1</mark> <mark>Amchart</mark> <mark>Highchart</mark> <mark>BootStrap</mark>
+    > **기간별 환율과 커미션이 적용된 광고주 리포트**
 
 - layout: top-middle
   name: 픽셀 스크립트 개발
-  link: github.com/sproogen
-  github: sproogen/resume-theme
+  link: manage.f1dmc.com/pixelGuide/main
+  job_title: 광고주 사이트에 설치되어 사용자 행동 추적 및 상품 데이터를 수집하는 스크립트
+  dates: Jan 2017 - Present
   quote: >
-    "광고주 사이트에서 사용자 행동 및 상품 데이터를 수집하는 스크립트"
+    <mark>Javascript</mark> <mark>Cookie</mark> <mark>PHP</mark> <mark>NginX</mark> <mark>PHP-FPM</mark> <mark>MongoDB</mark> <mark>Grunt</mark>
   description: | # this will include new lines to allow paragraphs
-    > GA / Google Remarketing Tag / Kakao Pixel / Criteo Pixel / Naver Log 분석 스크립트 / 모비온 픽셀 / 에이스카운터 스크립트 연동
+    > **픽셀 스크립트 개발**
+    ```
+    자바스크립트를 활용한 사용자 이벤트 비동기 수집
+    ```
+    ```
+    카페24, 메이크샵, 고도몰, 독립몰 환경에 따른 다양한 스크립트 개발
+    ```
 
-    > 100여개 사이트 상품데이터 수집 / 개인사용자 행동 추적 수집
+    > **매체사 스크립트 통합 연동**
+    ```
+    GA / Google Ads Tag / Facebook Pixel / Kakao Pixel / Criteo 스크립트 / Naver 로그 분석 스크립트 / 모비온 픽셀 / 에이스카운터 스크립트
+    ```
 
-    <mark>Javascript</mark> <mark>Cookie</mark> <mark>PHP</mark> <mark>NginX</mark> <mark>PHP-FPM</mark> <mark>MongoDB</mark>
+    > **쿠키 발급 픽셀 서버 구축**
+    ```
+    PHP를 활용한 쿠키 발급 서버
+    ```
+    ```
+    버전별 다양한 스크립트 코드 발급
+    ```
+
+    > **사용자 행동 데이터 수집 및 상품 정보 수집**
+    ```
+    사용자 UUID 기반 쿠키 정보 활용
+    ```
+    ```
+    페이지 조회, 상품 보기, 장바구니, 구매, 회원가입 등 이벤트 수집
+    ```
+    ```
+    상품 아이디, 이름, 가격, 이미지, 링크, 카테고리, 브랜드, 재고여부 등 상품정보 수집
+    ```
