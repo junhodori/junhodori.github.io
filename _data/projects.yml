@@ -1,34 +1,37 @@
 - layout: top-middle
   name: 피드 변환 시스템 개발
-  job_title: 광고주의 상품 파일을 각 매체에 동적 광고를 진행하기 위해 자동으로 변환하고 관리하는 모듈
+  job_title: 각 매체에 동적 리타겟팅 광고를 집행하기 위한 상품 파일 변환 및 관리 모듈
   dates: Jun 2015 - Present
   quote: >
-    <mark>Java</mark> <mark>Python</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>Linux</mark>
+    <mark>Java8+</mark> <mark>Python3.x</mark> <mark>Jersey Library</mark> <mark>Bash Shell</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
   description: | # this will include new lines to allow paragraphs
-    > **11번가, 위메프, CJmall, SSG 등 대형 광고주 상품 파일 연동**
+    > **대형 광고주 상품 파일 연동**
     ```
-    1억건이상 대용량 상품 EP, XML, CSV, TSV 파일
+    11번가, 위메프, 인터파크, CJmall, SSG, AKmall 등 1억건이상 대용량 상품 연동
     ```
-
-    > **100여개 소호몰 광고주 상품 수집 및 연동**
     ```
-    상품 페이지 픽셀 스크립트 호출시 상품 데이터 실시간 수집
+    EP, XML, CSV, TSV 파일 포맷 처리
     ```
 
-    > **페이스북 카탈로그, 구글 판매자 센터, 크리테오 등 각 매체사에 상품 파일 전체 및 증분 업데이트**
+    > **소호몰 광고주 상품 자동 수집 및 연동**
     ```
-    신규, 업데이트, 삭제 상품 배치 업데이트
+    100여개 광고주 사이트 상품 데이터 실시간 수집
+    ```
+
+    > **상품 파일 전체 및 증분 업데이트**
+    ```
+    페이스북 카탈로그 / 구글 판매자 센터 / 크리테오 등 각 매체사에 신규, 수정, 삭제 상품 배치 업데이트
     ```
     ```
     재고 변동사항 실시간 업데이트
     ```
 
-    > **광고 상품 필터링 및 광고 상품 커스터마이징 등 상품 관리 기능**
+    > **상품 관리 기능**
     ```
-    효율 낮은 상품, 부적절 광고 상품 필터링
+    효율 낮은 상품, 부적절 광고 상품, 날씨에 따른 상품 필터링
     ```
     ```
-    상품 정보 커스터마이징 및 전체 상품 현황 관리
+    상품 정보 커스터마이징 및 전체 상품 관리
     ```
 
 - layout: top-middle
@@ -36,13 +39,15 @@
   job_title: 광고 효율을 높이기 위한 광고 소재 커스터 마이징
   dates: Mar 2017 - Present
   quote: >
-    <mark>Python</mark> <mark>Pillow Library</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>AWS S3</mark>
+    <mark>Python3.x</mark> <mark>Pillow Library</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
   description: | # this will include new lines to allow paragraphs
-    > **무료배송, 할인률, 인기상품 등 각종 프로모션에 따른 소재 이미지 자동 워터마크**
+    > **무료배송, 할인률, 인기상품, 위치기반 등 각종 프로모션에 따른 소재 이미지 자동 워터마크**
 
-    > **위치 기반 배송 시간 워터마크**
+    ![](../images/watermark.png)
 
     > **다양한 템플릿이 적용된 이미지 리사이징**
+
+    ![](../images/resizing.png)
 
 - layout: top-middle
   name: 광고 집행 플랫폼 개발
@@ -50,15 +55,25 @@
   job_title: 페이스북, 구글, 카카오, 크리테오 등 다양한 매체의 광고를 집행 할 수 있는 매니지드 플랫폼
   dates: June 2015 - Present
   quote: >
-    <mark>Java8</mark> <mark>Spring Boot</mark> <mark>Vue.js</mark> <mark>Angular1.x</mark> <mark>Amchart</mark> <mark>Highchart</mark> <mark>BootStrap</mark>
+    <mark>Java8+</mark> <mark>Spring Boot</mark> <mark>Vue.js</mark> <mark>Angular1.x</mark> <mark>Amchart</mark> <mark>Highchart</mark> <mark>BootStrap</mark>
   description: | # this will include new lines to allow paragraphs
-    > **페이스북, 인스타그램, 구글, 카카오 광고 생성**
+    > **매체 통합 광고 생성 관리**
+    ```
+    페이스북, 인스타그램, 구글, 카카오 등 여러 매체 캠페인 한번에 동시 생성 및 관리
+    ```
 
     > **효율에 따른 광고 예산 자동 최적화**
 
+    ![](../images/optimization.jpg)
+
     > **사용자 행동 분석 및 광고주 사이트 진단 대시보드**
+    ```
+    유입 경로 분석, 사용자 행동에 따른 베스트 상품, 광고주 사이트 진단을 통한 광고 전략 대시보드
+    ```
 
     > **기간별 환율과 커미션이 적용된 광고주 리포트**
+
+    ![](../images/advertising_report.png)
 
 - layout: top-middle
   name: 픽셀 스크립트 개발
@@ -83,10 +98,10 @@
 
     > **쿠키 발급 픽셀 서버 구축**
     ```
-    PHP를 활용한 쿠키 발급 서버
+    PHP를 활용한 쿠키 발급 서버 구축
     ```
     ```
-    버전별 다양한 스크립트 코드 발급
+    버전에 따른 다양한 스크립트 코드 자동 발급
     ```
 
     > **사용자 행동 데이터 수집 및 상품 정보 수집**
@@ -98,4 +113,16 @@
     ```
     ```
     상품 아이디, 이름, 가격, 이미지, 링크, 카테고리, 브랜드, 재고여부 등 상품정보 수집
+    ```
+
+- layout: top-middle
+  name: 검색엔진 컨설팅 개발
+  job_title: 고객의 요구 사항 분석을 통해 데이터 정제, 수집, 색인과 검색 페이지 개발
+  dates: Nov 2011 - Aug 2014
+  quote: >
+    <mark>WindowsServer2008</mark> <mark>Jeus7</mark> <mark>WebLogic</mark> <mark>IIS 7.0</mark> <mark>Egovframework</mark> <mark>HP-UX</mark> <mark>Sybas</mark> <mark>Oracle10g</mark> <mark>MSSQL</mark> <mark>PostgreSQL</mark> <mark>Java6+</mark> <mark>Struts</mark> <mark>Jetty</mark> <mark>JSP</mark>
+  description: | # this will include new lines to allow paragraphs
+    > **검색엔진 컨설팅 및 개발**
+    ```
+    건강보험심사평가원을 시작으로 현대위아 ECM 도입 프로젝트까지 총 19개 프로젝트 진행
     ```
