@@ -26,11 +26,11 @@ instagram_username: junhodori
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  항상 새로운 기술에 갈증을 느끼며 도전하길 좋아하는 엔지니어입니다.
-
-  검색엔진 회사를 시작으로 현재는 광고 플랫폼 회사에서 열심히 성장하고 있습니다.
-
   저는 9년차 <mark>웹 풀스택</mark> 엔지니어 입니다.
+
+  항상 새로운 기술에 갈증을 느끼며 도전을 즐기고 있습니다.
+
+  검색엔진 회사를 시작으로 광고 플랫폼 회사에 이르기까지 다양한 경험을 통해 열심히 성장하고 있습니다.
 
 # Projects Section
 # projects_title: Projects
