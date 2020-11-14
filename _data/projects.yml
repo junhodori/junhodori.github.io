@@ -1,70 +1,5 @@
 - layout: top-middle
-  name: 피드 변환 시스템 개발
-  job_title: 각 매체에 동적 리타겟팅 광고를 집행하기 위한 상품 파일 변환 및 관리 모듈
-  dates: Jun 2015 - Present
-  quote: >
-    <mark>Java8+</mark> <mark>Python3.x</mark> <mark>Jersey Library</mark> <mark>Bash Shell</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
-  description: | # this will include new lines to allow paragraphs
-    > **대형 광고주 상품 파일 연동**
-    ```
-    EP, XML, CSV, TSV 등 다양한 포맷의 파일을 Parsing을 통해 DB 적재
-    ```
-    ```
-    11번가, 위메프, 인터파크, CJmall, SSG, AKmall 등 1억건이상 대용량 상품들을 광고 매체에 연동
-    ```
-
-    > **중소형 쇼핑몰 상품 자동 수집 및 매체사 연동**
-    ```
-    100여개 쇼핑몰 사이트 상품 데이터(이름, 가격, 이미지, 링크 등) 실시간 수집
-    ```
-
-    > **상품 증분 업데이트**
-    ```
-    각 매체사(페이스북 / 구글 / 크리테오)에 신규, 수정, 삭제 상품 증분 업데이트
-    ```
-    ```
-    재고 변동사항 실시간 업데이트
-    ```
-
-    > **상품 관리 기능**
-    ```
-    효율 낮은 상품, 부적절 광고 상품, 계절에 따른 상품 필터링
-    ```
-    ```
-    수집된 상품 정보 수정 및 관리 기능
-    ```
-
-- layout: top-middle
-  name: 소재 커스터 마이징 시스템 개발
-  job_title: 광고 효율을 높이기 위한 광고 소재 커스터 마이징
-  dates: Mar 2017 - Present
-  quote: >
-    <mark>Python3.x</mark> <mark>Pillow Library</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
-  description: | # this will include new lines to allow paragraphs
-    > **무료배송, 할인률, 인기상품, 위치기반 등 각종 프로모션에 따른 소재 이미지 자동 워터마크**
-    ```
-    기본 상품정보를 활용하여 무료배송과 할인률 워터마크
-    ```
-    ```
-    구매가 많이 일어난 상품 분석을 통해 인기상품 워터마크
-    ```
-    ```
-    위치기반 API를 통해 광고 지역별 당일배송 워터마크
-    ```
-
-    ![](../images/watermark.png)
-
-    > **다양한 템플릿이 적용된 이미지 리사이징**
-    ```
-    다양한 비율의 이미지를 정사각형으로 변환
-    ```
-    ```
-    파이썬 라이브러리를 활용해 단색, 그라데이션, 블러 거울 효과 등 다양한 템플릿으로 여백 설정
-    ```
-    ![](../images/resizing.png)
-
-- layout: top-middle
-  name: 광고 집행 플랫폼 개발
+  name: 광고 집행 플랫폼 개발 및 운영
   link: https://ad.f1dmc.com:8443
   job_title: 페이스북, 구글, 카카오, 크리테오 등 다양한 매체의 광고를 집행 할 수 있는 매니지드 플랫폼
   dates: June 2015 - Present
@@ -73,29 +8,84 @@
   description: | # this will include new lines to allow paragraphs
     > **매체 통합 광고 생성 관리**
     ```
-    각 매체사 API를 활용하여 페이스북, 인스타그램, 구글, 카카오 등 여러 매체 캠페인 통합 생성 및 관리
+    각 매체사 API를 활용하여 페이스북, 인스타그램, 구글, 카카오 등 여러 매체 광고 캠페인 통합 생성 및 관리
     ```
     ```
-    초기버전은 Angular1.x로 개발되었으나 해당 프레임워크의 단점을 극복하고자 추후 리뉴얼 버전은 Vue.js를 도입하여 개발
+    초기버전 프론트는 Angular1.x로 개발되었으나 리뉴얼 버전은 Vue.js를 도입하여 개발
     ```
 
-    > **효율에 따른 광고 예산 자동 최적화**
+    > **광고 예산 자동 최적화**
     ```
-    ROAS / 구매 전환율 등 인사이트 분석하여 다수의 광고 세트에 예산 재분배
+    ROAS / 구매 전환율 등 인사이트 정보를 분석하여 효율에 따라 여러 광고 세트에 예산 재분배
     ```
 
     ![](../images/optimization.jpg)
 
-    > **사용자 행동 분석 및 광고주 사이트 진단 대시보드**
+    > **사용자 행동 분석 및 광고 전략 대시보드**
     ```
     유입 경로 분석, 사용자 행동에 따른 베스트 상품, 광고주 사이트 진단을 통한 광고 전략 대시보드
     ```
 
-    > **환율과 커미션이 적용된 광고주 리포트**
+    > **광고주 리포트**
     ```
-    기간별 환율과 광고비에 대한 커미션이 계산된 광고주 전용 리포트 제공
+    기간별 달러 환율과 광고비에 대한 커미션이 계산된 광고주 리포트 제공
     ```
     ![](../images/advertising_report.png)
+
+- layout: top-middle
+  name: 상품 데이터 연동 시스템 개발 및 운영
+  job_title: 각 매체에 동적 리타겟팅 광고를 집행하기 위한 상품 파일 변환 및 관리 모듈
+  dates: Jun 2015 - Present
+  quote: >
+    <mark>Java8+</mark> <mark>Python3.x</mark> <mark>Jersey Library</mark> <mark>Bash Shell</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
+  description: | # this will include new lines to allow paragraphs
+    > **대형 커머스 광고주 상품 파일 연동**
+    ```
+    EP, XML, CSV, TSV 등 다양한 포맷의 파일을 Parsing하여 DB 적재
+    ```
+    ```
+    11번가, 위메프, 인터파크, CJmall, SSG 등 1억건이상 대용량 상품들을 광고 매체와 연동
+    ```
+
+    > **중소형 커머스 상품 자동 수집 및 연동**
+    ```
+    100여개 쇼핑몰 사이트 상품 데이터(이름, 가격, 이미지, 링크 등) 실시간 수집
+    ```
+
+    > **상품 증분 업데이트**
+    ```
+    매체사에 신규, 수정, 삭제 상품 시간 단위 증분 업데이트
+    ```
+
+    > **상품 관리 기능**
+    ```
+    효율 낮은 상품, 부적절 광고 상품 등 필터링
+    ```
+    ```
+    할인률 계산, 상품 이름 수정 등 상품 정보 가공
+    ```
+
+- layout: top-middle
+  name: 이미지 커스터마이징 시스템 개발
+  job_title: 광고 효율을 높이기 위한 광고 소재 이미지 커스터마이징
+  dates: Mar 2017 - Present
+  quote: >
+    <mark>Python3.x</mark> <mark>Pillow Library</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
+  description: | # this will include new lines to allow paragraphs
+    > **소재 이미지 워터마크 적용**
+    ```
+    무료배송, 할인률, 인기상품 워터마크 적용
+    ```
+    ![](../images/watermark.png)
+
+    > **소재 이미지 리사이징**
+    ```
+    직사각형 이미지를 정사각형으로 리사이징
+    ```
+    ```
+    그라데이션, 블러 효과 등 다양한 방법으로 리사이징 여백에 적용
+    ```
+    ![](../images/resizing.png)
 
 - layout: top-middle
   name: 픽셀 스크립트 개발
@@ -107,37 +97,31 @@
   description: | # this will include new lines to allow paragraphs
     > **픽셀 스크립트 개발**
     ```
-    자바스크립트를 활용한 사용자 이벤트 비동기 수집
+    Javascript로 개발하였으며 커머스 사이트에서 사용자 행동 데이터 수집
     ```
     ```
-    카페24, 메이크샵, 고도몰, 독립몰 환경에 따른 다양한 스크립트 개발
+    카페24, 메이크샵, 고도몰 등의 웹호스팅 사이트와 그 외 독립몰 커머스에서 동작하는 다양한 버전의 스크립트 개발
     ```
 
-    > **매체사 스크립트 통합 연동**
+    > **매체사 스크립트 통합**
     ```
     GA / Google Ads Tag / Facebook Pixel / Kakao Pixel / Criteo 스크립트 / Naver 로그 분석 / 모비온 픽셀 / 에이스카운터 스크립트
     ```
 
-    > **쿠키 발급 픽셀 서버 구축**
+    > **UUID 쿠키 발급 웹서버 구축**
     ```
-    PHP를 활용한 쿠키 발급 서버 구축
-    ```
-    ```
-    버전에 따른 다양한 스크립트 코드 자동 발급
+    PHP로 개발되었으며 UUID 쿠키 발급 및 픽셀 스크립트 전달
     ```
     ```
-    쿠키 정보 수집 Opt-out 설정
+    Opt-out 개인 정보 수집 정책 설정
     ```
 
-    > **사용자 행동 데이터 수집 및 상품 정보 수집**
+    > **상품 데이터 및 사용자 행동 데이터 수집**
     ```
-    사용자 UUID 기반 쿠키 정보 활용
-    ```
-    ```
-    페이지 조회, 상품 보기, 장바구니, 구매, 회원가입 등 이벤트 수집
+    상품 아이디, 이름, 가격, 이미지, 링크 등 상품 데이터 수집
     ```
     ```
-    상품 아이디, 이름, 가격, 이미지, 링크, 카테고리, 브랜드, 재고여부 등 상품정보 수집
+    상품 조회, 장바구니, 구매 등 사용자 행동 데이터 수집
     ```
 
 - layout: top-middle
@@ -149,5 +133,5 @@
   description: | # this will include new lines to allow paragraphs
     > **검색엔진 컨설팅 및 개발**
     ```
-    건강보험심사평가원을 시작으로 현대위아 ECM 도입 프로젝트까지 총 19개 프로젝트 진행
+    건강보험심사평가원을 시작으로 현대위아 ECM 검색엔진 도입 프로젝트까지 총 19개 프로젝트 진행
     ```
