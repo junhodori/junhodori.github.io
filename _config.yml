@@ -51,18 +51,18 @@ more_content: | # this will include new lines to allow paragraphs
    - Health training
    - Camping as a new hobby
 
-  나의 개인 학습:
-   - Node.js
-   - Redis
-   - Electron
-   - Redis
-   - Mean Stack
-   - Elastic Stack
-   - Kotlin
-   - Docker
-   - Machine Learning
-   - React
-   - WebFlux
+#  나의 개인 학습:
+#   - Node.js
+#   - Redis
+#   - Electron
+#   - Redis
+#   - Mean Stack
+#   - Elastic Stack
+#   - Kotlin
+#   - Docker
+#   - Machine Learning
+#   - React
+#   - WebFlux
 
 # Footer
 footer_show_references: true
