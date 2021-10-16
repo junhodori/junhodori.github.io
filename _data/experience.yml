@@ -1,8 +1,20 @@
 - layout: left
+  company: 잡플래닛
+  link: www.jobplanet.co.kr
+  job_title: 백엔드 개발팀
+  dates: Jan 2021 - Present
+  description: | # this will include new lines to allow paragraphs
+    기업 리뷰 서비스로 시작한 스타트업 회사입니다.
+
+    코로나와 더불어 채용 시장까지 중요해지면서 구직자에게는 좋은 기업을 기업에게는 좋은 인재를 추천해주는 것을 목표로 성장하고 있습니다.
+
+    현재는 잡플래닛 백엔드 서비스 개발과 백엔드 팀리딩을 담당하고 있습니다.
+
+- layout: left
   company: DMC 미디어
   link: www.dmcmedia.co.kr
   job_title: 마케팅기술연구소 차장
-  dates: Jun 2015 - Present
+  dates: Jun 2015 - Aug 2020
   description: | # this will include new lines to allow paragraphs
     디지털 광고 미디어 랩사입니다.
 

@@ -1,103 +1,201 @@
 - layout: top-middle
-  name: 광고 집행 플랫폼 개발 및 운영
-  link: https://ad.f1dmc.com:8443
-  job_title: 페이스북, 구글, 카카오, 크리테오 등 다양한 매체의 광고를 집행 할 수 있는 매니지드 플랫폼
-  dates: June 2015 - Present
+  name: (잡플래닛) 잡플래닛 서비스 개발
+  link: www.jobplanet.co.kr
+  dates: Apr 2021 - Present
   quote: >
-    <mark>Java8+</mark> <mark>Spring Boot</mark> <mark>Vue.js</mark> <mark>Angular1.x</mark> <mark>Amchart</mark> <mark>Highchart</mark> <mark>BootStrap</mark>
+    <mark>Ruby</mark> <mark>Ruby on Rails</mark> <mark>ElasticSearch</mark> <mark>Redis</mark> <mark>MySql</mark> <mark>CoffeScript</mark>
   description: | # this will include new lines to allow paragraphs
-    > **매체 통합 광고 생성 관리**
+    > **회사 복지 리뷰 개편 프로젝트 (09월 ~ 12월)**
     ```
-    각 매체사 API를 활용하여 페이스북, 인스타그램, 구글, 카카오 등 여러 매체 광고 캠페인 통합 생성 및 관리
+    복지 리뷰 테이블 설계
     ```
     ```
-    초기버전 프론트는 Angular1.x로 개발되었으나 리뉴얼 버전은 Vue.js를 도입하여 개발
+    백엔드 API 개발
+    ```
+    ```
+    ElasticSearch을 이용한 키워드 자동완성
+    ```
+    ```
+    ERB(Embedded RuBy) 뷰페이지 개발
+    ```
+    ```
+    관리자 페이지 기능 추가 개발
     ```
 
-    > **광고 예산 자동 최적화**
+    > **잡플래닛 검색바 개편 (04월 ~ 05월)**
     ```
-    ROAS / 구매 전환율 등 인사이트 정보를 분석하여 효율에 따라 여러 광고 세트에 예산 재분배
+    백엔드 코드 개발
+    ```
+    ```
+    ERB(Embedded RuBy) 뷰페이지 개발
+    ```
+    ![](../images/search_bar.jpg)
+    ```
+    관리자 페이지 기능 추가 개발
+    ```
+- layout: top-middle
+  name: (잡플래닛) 백엔드 팀리딩
+  dates: Apr 2021 - Present
+  description: | # this will include new lines to allow paragraphs
+    > **백엔드 팀리딩**
+    ```
+    매주 이력서 검토와 기술 면접 진행
+    ```
+    ```
+    신규입사자 온보딩 교육
+    ```
+    ```
+    백엔드팀 문화 개선 (기술 공유, 문서화, 코드 리뷰 등)
+    ```
+    ```
+    노션을 통한 백엔드 기술 문서화
+    ```
+    ```
+    레거시 운영 업무 개선 및 담당 부서로 이관
+    ```
+    ```
+    백엔드 x 프론트 협업 프로세스 개선
+    ```
+    ```
+    GIT-HUB 백엔드 루비 코드 관리
+    ```
+
+- layout: top-middle
+  name: (잡플래닛) 잡플래닛 서비스 운영 유지보수
+  dates: Apr 2021 - Present
+  description: | # this will include new lines to allow paragraphs
+    > **잡플래닛 서비스 운영 유지보수**
+    ```
+    ElasticSearch 관련 이슈 처리
+    ```
+    ```
+    Sidekiq 비동기 배치 프레임워크 관리
+    ```
+    ```
+    Newrelic APM 툴을 이용한 서버 이슈 처리
+    ```
+    ```
+    영업, 마케팅, 컨텐츠, 변호사 등 각 부서 업무 지원
+    ```
+    ```
+    이메일, 앱푸시, 설문, 리포트 사내 서비스 운영
+    ```
+    ```
+    수사기관 영장들고 올 경우 대응
+    ```
+
+- layout: top-middle
+  name: (잡플래닛) 잡플래닛 광고 업무
+  dates: Jan 2021 - Apr 2021
+  quote: >
+    <mark>CoffeScript</mark> <mark>Mustache library</mark>
+  description: | # this will include new lines to allow paragraphs
+    > **잡플래닛 광고 업무**
+    ```
+    구글 애드매니저 광고 구좌 추가 (CoffeScript)
+    ```
+    ```
+    페이스북 픽셀 스크립트 설치 및 SDK 설치 지원
+    ```
+    ```
+    마케팅 페이지 개발
+    ```
+    ```
+    메일 템플릿 개편 (Mustache library)
+    ```
+
+- layout: top-middle
+  name: (DMC 미디어) 광고 집행 플랫폼 개발 및 운영
+  link: https://ad.f1dmc.com:8443
+  dates: June 2015 - Aug 2020
+  quote: >
+    <mark>Java</mark> <mark>Spring Boot</mark> <mark>Vue.js</mark> <mark>Angular1</mark> <mark>Amchart</mark> <mark>Highchart</mark> <mark>BootStrap</mark>
+  description: | # this will include new lines to allow paragraphs
+    > **매체 통합 광고 생성 관리 기능 개발**
+    ```
+    각 매체사 API를 활용하여 페이스북, 인스타그램, 구글, 카카오 등 여러 매체 광고 캠페인 통합 생성 및 관리 기능
+    ```
+
+    > **프론트 페이지 SPA 전환**
+    ```
+    Angular1으로 개발된 레거시 프론트 페이지를 Vue.js를 도입하여 SPA로 전환
+    ```
+
+    > **광고 예산 자동 최적화 기능 개발**
+    ```
+    ROAS / 구매 전환율 등 인사이트 정보를 분석하여 효율에 따라 여러 광고 세트에 예산 재분배 기능
     ```
 
     ![](../images/optimization.jpg)
 
-    > **사용자 행동 분석 및 광고 전략 대시보드**
+    > **광고 전략 대시보드 개발**
     ```
-    유입 경로 분석, 사용자 행동에 따른 베스트 상품, 광고주 사이트 진단을 통한 광고 전략 대시보드
+    유입 경로 분석, 사용자 행동에 따른 베스트 상품, 광고주 사이트 진단을 통한 광고 전략 대시보드 개발
     ```
 
-    > **광고주 리포트**
+    > **광고주 리포트 개발**
     ```
-    기간별 달러 환율과 광고비에 대한 커미션이 계산된 광고주 리포트 제공
+    기간별 달러 환율과 광고비에 대한 커미션이 계산된 광고주 리포트 개발하여 광고주별로 제공
     ```
     ![](../images/advertising_report.png)
 
 - layout: top-middle
-  name: 상품 데이터 연동 시스템 개발 및 운영
-  job_title: 각 매체에 동적 리타겟팅 광고를 집행하기 위한 상품 파일 변환 및 관리 모듈
-  dates: Jun 2015 - Present
+  name: (DMC 미디어) 이커머스 상품 데이터 광고 연동 시스템 개발 및 운영
+  dates: Jun 2015 - Aug 2020
   quote: >
-    <mark>Java8+</mark> <mark>Python3.x</mark> <mark>Jersey Library</mark> <mark>Bash Shell</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
+    <mark>Java</mark> <mark>Python</mark> <mark>Jersey Library</mark> <mark>Bash Shell</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
   description: | # this will include new lines to allow paragraphs
-    > **대형 커머스 광고주 상품 파일 연동**
+    > **대형 커머스 상품 광고 연동**
     ```
-    EP, XML, CSV, TSV 등 다양한 포맷의 파일을 Parsing하여 DB 적재
-    ```
-    ```
-    11번가, 위메프, 인터파크, CJmall, SSG 등 1억건이상 대용량 상품들을 광고 매체와 연동
+    11번가, 위메프, 인터파크, SSG 등 1억건이상 대용량 상품 광고 매체와 연동
     ```
 
-    > **중소형 커머스 상품 자동 수집 및 연동**
+    > **중소형 커머스 상품 자동 수집 기능 개발**
     ```
-    100여개 쇼핑몰 사이트 상품 데이터(이름, 가격, 이미지, 링크 등) 실시간 수집
-    ```
-
-    > **상품 증분 업데이트**
-    ```
-    매체사에 신규, 수정, 삭제 상품 시간 단위 증분 업데이트
+    100여개 쇼핑몰 사이트 상품 데이터(이름, 가격, 이미지, 링크 등) 실시간 수집 기능
     ```
 
-    > **상품 관리 기능**
+    > **상품 증분 업데이트 기능 개발**
     ```
-    효율 낮은 상품, 부적절 광고 상품 등 필터링
+    매체사에 신규, 수정, 삭제 상품 시간 단위 증분 업데이트 기능 개발
     ```
+
+    > **상품 관리 기능 개발**
     ```
-    할인률 계산, 상품 이름 수정 등 상품 정보 가공
+    효율 낮은 상품, 부적절 광고 상품 등 필터링 기능
     ```
 
 - layout: top-middle
-  name: 이미지 커스터마이징 시스템 개발
-  job_title: 광고 효율을 높이기 위한 광고 소재 이미지 커스터마이징
-  dates: Mar 2017 - Present
+  name: (DMC 미디어) 이미지 커스터마이징 시스템 개발 및 운영
+  dates: Mar 2017 - Aug 2020
   quote: >
-    <mark>Python3.x</mark> <mark>Pillow Library</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
+    <mark>Python</mark> <mark>Pillow Library</mark> <mark>MySQL</mark> <mark>MongoDB</mark> <mark>CentOS</mark> <mark>AWS S3</mark>
   description: | # this will include new lines to allow paragraphs
-    > **소재 이미지 워터마크 적용**
+    > **소재 이미지 워터마크 적용 기능 개발**
     ```
-    무료배송, 할인률, 인기상품 워터마크 적용
+    무료배송, 할인률, 인기상품 워터마크 적용 기능
     ```
     ![](../images/watermark.png)
 
-    > **소재 이미지 리사이징**
+    > **소재 이미지 리사이징 기능 개발**
     ```
-    직사각형 이미지를 정사각형으로 리사이징
+    다양한 크기의 이미지를 정사각형 600x600 리사이징 기능
     ```
     ```
-    그라데이션, 블러 효과 등 다양한 방법으로 리사이징 여백에 적용
+    그라데이션, 블러 효과 등 다양한 이미지 처리 기법을 소재 여백에 활용
     ```
     ![](../images/resizing.png)
 
 - layout: top-middle
-  name: 픽셀 스크립트 개발
+  name: (DMC 미디어) 픽셀 스크립트 개발 및 운영
   link: manage.f1dmc.com/pixelGuide/main
-  job_title: 광고주 사이트에 설치되어 사용자 행동 추적 및 상품 데이터를 수집하는 스크립트
-  dates: Jan 2017 - Present
+  dates: Jan 2017 - Aug 2020
   quote: >
     <mark>Javascript</mark> <mark>Cookie</mark> <mark>PHP</mark> <mark>NginX</mark> <mark>PHP-FPM</mark> <mark>MongoDB</mark> <mark>Grunt</mark>
   description: | # this will include new lines to allow paragraphs
     > **픽셀 스크립트 개발**
     ```
-    Javascript로 개발하였으며 커머스 사이트에서 사용자 행동 데이터 수집
+    이커머스 사이트에서 사용자 행동 데이터 수집하도록 javascript로 개발
     ```
     ```
     카페24, 메이크샵, 고도몰 등의 웹호스팅 사이트와 그 외 독립몰 커머스에서 동작하는 다양한 버전의 스크립트 개발
@@ -125,13 +223,12 @@
     ```
 
 - layout: top-middle
-  name: 검색엔진 컨설팅 개발
-  job_title: 고객의 요구 사항 분석을 통해 데이터 정제, 수집, 색인과 검색 페이지 개발
+  name: (와이즈넛) 검색엔진 컨설팅 및 구축
   dates: Nov 2011 - Aug 2014
   quote: >
     <mark>WindowsServer2008</mark> <mark>Jeus7</mark> <mark>WebLogic</mark> <mark>IIS 7.0</mark> <mark>Egovframework</mark> <mark>HP-UX</mark> <mark>Sybas</mark> <mark>Oracle10g</mark> <mark>MSSQL</mark> <mark>PostgreSQL</mark> <mark>Java6+</mark> <mark>Struts</mark> <mark>Jetty</mark> <mark>JSP</mark>
   description: | # this will include new lines to allow paragraphs
-    > **검색엔진 컨설팅 및 개발**
+    > **검색엔진 컨설팅 및 구축**
     ```
     건강보험심사평가원을 시작으로 현대위아 ECM 검색엔진 도입 프로젝트까지 총 19개 프로젝트 진행
     ```
