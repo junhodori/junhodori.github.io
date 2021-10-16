@@ -45,11 +45,11 @@ about_content: | # this will include new lines to allow paragraphs
 # more_title: A Little More About Me
 more_content: | # this will include new lines to allow paragraphs
   나의 취미 생활:
-   - StarCraft
-   - Riding a bicycle
-   - Futsal
-   - Health training
-   - Camping as a new hobby
+   - 스타크래프트
+   - 자전거 라이딩,풋살,헬스
+   - 차박,노지,오토캠핑
+   - 진로 이즈 백
+   - 바다 물놀이
 
 #  나의 개인 학습:
 #   - Node.js
